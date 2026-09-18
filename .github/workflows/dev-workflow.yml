@@ -8,6 +8,9 @@ on:
 
 jobs:
     dev-terraform:
+        permissions:
+            id-token: write
+            contents: read
         uses: ./.github/workflows/reusable-workflow.yml
         with:
             environment: "dev"
