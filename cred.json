@@ -1,6 +1,6 @@
 {
-  "name": "terraform-github-actions-deploy",
-  "issuer": "https://token.actions.githubusercontent.com",
-  "subject": "repo:Shreepal811/terraform-gta:ref:refs/heads/main",
-  "audiences": ["api://AzureADTokenExchange"]
+    "name": "github-actions-terraform-gta-dev-env",
+    "issuer": "https://token.actions.githubusercontent.com",
+    "subject": "repo:Shreepal811@184873717/terraform-gta@1376275437:environment:dev",
+    "audiences": ["api://AzureADTokenExchange"]
 }
