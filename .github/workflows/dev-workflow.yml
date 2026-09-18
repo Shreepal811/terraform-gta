@@ -14,4 +14,5 @@ jobs:
         uses: ./.github/workflows/reusable-workflow.yml
         with:
             environment: "dev"
+            working_directory: ./dev
         
