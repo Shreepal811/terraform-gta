@@ -1,0 +1,14 @@
+name: dev-terraform-workflow
+
+on:
+    push:
+        branches:
+            devlop
+    workflow_dispatch:
+
+jobs:
+    dev-terraform:
+        uses: ./.github/workflows/reusable-workflow.yml
+        with:
+            environment: "dev"
+        
