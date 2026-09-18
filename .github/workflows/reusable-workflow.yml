@@ -39,10 +39,11 @@ jobs:
 
         - name: Terraform Plan
           run: terraform plan 
-          working-directory: inputs.working-directory 
+          working-directory:  ${{ inputs.working_directory }}
 
         - name: Terraform apply
           run: terraform apply -auto-approve 
+          working-directory:  ${{ inputs.working_directory }}
 
 
 
