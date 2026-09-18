@@ -39,7 +39,7 @@ jobs:
 
         - name: Terraform Plan
           run: terraform plan 
-          working-directory: ${inputs.working-directory }
+          working-directory: inputs.working-directory 
 
         - name: Terraform apply
           run: terraform apply -auto-approve 
