@@ -1,4 +1,4 @@
-name: feature-terraform-workflow
+name: features-terraform-workflow
 
 on:
     push:
