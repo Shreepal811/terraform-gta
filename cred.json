@@ -1,6 +1,0 @@
-{
-    "name": "terraform-gta-feature",
-    "issuer": "https://token.actions.githubusercontent.com",
-    "subject": "repo:Shreepal811@184873717/terraform-gta@1376275437:environment:feature",
-    "audiences": ["api://AzureADTokenExchange"]
-  }
