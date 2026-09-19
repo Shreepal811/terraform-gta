@@ -3,7 +3,7 @@ name: features-terraform-workflow
 on:
     push:
         branches:
-            feature/**
+           - 'feature/**'
     workflow_dispatch:
 
 jobs:
